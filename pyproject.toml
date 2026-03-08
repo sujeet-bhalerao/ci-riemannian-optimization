@@ -1,0 +1,11 @@
+[project]
+name = "ci-riemannian-optimization"
+version = "0.1.0"
+description = "Riemannian optimization tools for multi-copy coherent information of quantum channels"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=2.3.4",
+    "pymanopt>=2.2.1",
+    "scipy>=1.16.2",
+]
